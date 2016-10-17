@@ -12,21 +12,7 @@ module.exports = function (grunt) {
                 }
             }
         },
-        uglify: {
-            options: {
-                mangle: false
-            },
-            my_target: {
-                files: {
-                    'build/js/script.js': [
-                        'js/script.js'
-                    ],
-                    'build/js/offline-disable.js': [
-                        'js/offline-disable.js'
-                    ]
-                }
-            }
-        },
+
         copy: {
             main: {
                 files: [
@@ -112,37 +98,17 @@ module.exports = function (grunt) {
                 files: ['*.html']
                 //tasks: ['validation']
             },
-            js: {
-                files: ['js/*.js', 'Gruntfile.js']
-            },
             options: {
                 //livereload: '<%= connect.options.livereload %>'
             },
             livereload: {
                 files: [
                     'styles/css/*.css',
-                    '<%=watch.html.files%>',
-                    '<%=watch.js.files%>'
+                    '<%=watch.html.files%>'
                 ],
                 options: {
                     livereload: '<%= connect.options.livereload %>'
                 }
-            }
-        },
-        validation: {
-            files: {
-                src: ['*.html']
-            }
-        },
-        scsslint: {
-            allFiles: [
-                'styles/sass/*.scss'
-            ],
-            options: {
-                bundleExec: true,
-                config: '.scss-lint.yml',
-                reporterOutput: 'scss-lint-report.xml',
-                colorizeOutput: true
             }
         },
         imagemin: {
@@ -166,13 +132,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-scss-lint');
-    grunt.loadNpmTasks('grunt-html-validation');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-jade');
-    grunt.registerTask('build', ['clean:build', 'sass','jade', 'cssmin', 'htmlmin' ,'copy','uglify', 'imagemin']);
+    grunt.registerTask('build', ['clean:build', 'sass','jade', 'cssmin', 'htmlmin' ,'copy', 'imagemin']);
     grunt.registerTask('serve', ['jade','sass', 'connect', 'watch']);
-    grunt.registerTask('valid', ['validation','scsslint']);
 };

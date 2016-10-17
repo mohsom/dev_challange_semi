@@ -10,21 +10,14 @@
     "grunt-contrib-cssmin": "latest",
     "grunt-contrib-htmlmin": "latest",
     "grunt-contrib-sass": "latest",
-    "grunt-contrib-uglify": "latest",
     "grunt-contrib-watch": "latest",
-    "grunt-html-validation": "latest",
-    "grunt-scss-lint": "latest",
     "grunt-contrib-imagemin": "latest",
     "grunt-contrib-jade":"latest"
   },
-  "description": "My repository for job projects.",
+  "description": "",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://mohsom@bitbucket.org/mohsom/work.git"
   },
   "author": "",
   "license": "ISC"
