@@ -1,5 +1,6 @@
 .header {
   background: url("../../../img/header.jpg") top center no-repeat;
+  background-size: cover;
   padding-top: 85px;
   padding-bottom: 420px; }
   .header-navigation {
@@ -66,11 +67,12 @@
 
 .projects {
   background: url("../../../img/projects.jpg") top center no-repeat;
+  background-size: cover;
   position: relative; }
   .projects__letter {
-    font-weight: 800;
-    font-size: 1000px;
-    color: #fff; }
+    font-weight: 900;
+    font-size: 1300px;
+    color: rgba(25, 30, 63, 0.3); }
 
 body {
   font-family: 'Raleway', sans-serif; }

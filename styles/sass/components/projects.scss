@@ -1,9 +1,10 @@
 .projects {
-  background: url('../../../img/projects.jpg') top center no-repeat;
+  background: url('../../../img/projects.jpg') top center  no-repeat;
+  background-size: cover;
   position: relative;
   &__letter {
-    font-weight: 800;
-    font-size: 1000px;
-    color: #fff;
+    font-weight: 900;
+    font-size: 1300px;
+    color: rgba(25, 30, 63, 0.3);
   }
 }
