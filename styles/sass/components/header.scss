@@ -1,11 +1,28 @@
 .header {
-  &__logo {
-    display: inline-block;
-    vertical-align: middle;
+  background: url('../../../img/header.jpg') top center no-repeat;
+  padding-top: 85px;
+  padding-bottom: 420px;
+  &-navigation {
+    position: relative;
+    &__logo {
+      display: block;
+      width: 130px;
+      margin: 0 auto;
+    }
+
+    &-hamburger {
+      position: absolute;
+      top: 30px;
+      right: 35px;
+    }
   }
 
-  &-hamburger {
-    display: inline-block;
-    vertical-align: middle;
+  &__title {
+    display: block;
+    color: #fff;
+    font-weight: 100;
+    font-size: 73px;
+    text-align: center;
+    margin: 330px 0 0 0;
   }
 }
