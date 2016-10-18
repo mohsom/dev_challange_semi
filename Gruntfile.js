@@ -51,7 +51,7 @@ module.exports = function (grunt) {
             }
         },
 
-        jade: {
+        pug: {
             compile: {
                 options: {
                     data: {
@@ -59,7 +59,7 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
-                    "index.html": ["jade/index.jade"]
+                    "index.html": ["jade/index.pug"]
                 }
             }
         },
@@ -87,9 +87,9 @@ module.exports = function (grunt) {
                 //    livereload: '<%= connect.options.livereload %>',
                 //}
             },
-            jade:{
-                files:['jade/*.jade'],
-                tasks: ['jade']
+            pug:{
+                files:['pug/*.pug'],
+                tasks: ['pug']
             },
             css: {
                 files: ['styles/css/*.css']
@@ -134,7 +134,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-contrib-jade');
+    grunt.loadNpmTasks('grunt-contrib-pug');
     grunt.registerTask('build', ['clean:build', 'sass','jade', 'cssmin', 'htmlmin' ,'copy', 'imagemin']);
-    grunt.registerTask('serve', ['jade','sass', 'connect', 'watch']);
+    grunt.registerTask('serve', ['pug','sass', 'connect', 'watch']);
 };

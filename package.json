@@ -12,7 +12,7 @@
     "grunt-contrib-sass": "latest",
     "grunt-contrib-watch": "latest",
     "grunt-contrib-imagemin": "latest",
-    "grunt-contrib-jade":"latest"
+    "grunt-contrib-pug":"latest"
   },
   "description": "",
   "main": "Gruntfile.js",

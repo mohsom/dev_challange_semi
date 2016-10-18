@@ -2,3 +2,14 @@
 @import "big-screen";
 @import "small-screen";
 @import "medium-screen";
+
+body {
+  .main-block {
+    background: #191e3f;
+    .main-container {
+      width: 1360px;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+}
