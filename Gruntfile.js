@@ -59,7 +59,7 @@ module.exports = function (grunt) {
                     }
                 },
                 files: {
-                    "index.html": ["jade/index.pug"]
+                    "index.html": ["pug/index.pug"]
                 }
             }
         },

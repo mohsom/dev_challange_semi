@@ -1,3 +1,10 @@
+.header__logo {
+  display: inline-block;
+  vertical-align: middle; }
+.header-hamburger {
+  display: inline-block;
+  vertical-align: middle; }
+
 body .main-block {
   background: #191e3f; }
   body .main-block .main-container {
