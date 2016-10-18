@@ -22,7 +22,7 @@
 
 .mission {
   padding-top: 230px;
-  padding-bottom: 225px; }
+  padding-bottom: 150px; }
   .mission-number {
     display: inline-block;
     vertical-align: middle;
@@ -63,6 +63,14 @@
       right: 25px;
       top: 38%;
       font-size: 18px; }
+
+.projects {
+  background: url("../../../img/projects.jpg") top center no-repeat;
+  position: relative; }
+  .projects__letter {
+    font-weight: 800;
+    font-size: 1000px;
+    color: #fff; }
 
 body {
   font-family: 'Raleway', sans-serif; }

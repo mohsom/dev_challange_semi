@@ -1,0 +1,9 @@
+.projects {
+  background: url('../../../img/projects.jpg') top center no-repeat;
+  position: relative;
+  &__letter {
+    font-weight: 800;
+    font-size: 1000px;
+    color: #fff;
+  }
+}
