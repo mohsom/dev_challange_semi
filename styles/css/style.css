@@ -24,7 +24,25 @@
   padding-top: 230px; }
   .mission-number {
     display: inline-block;
-    vertical-align: middle; }
+    vertical-align: middle;
+    position: relative;
+    width: 235px; }
+    .mission-number__num {
+      font-weight: 900;
+      font-size: 285px;
+      color: #1f2443;
+      letter-spacing: -15px;
+      font-family: 'Yantramanav', sans-serif; }
+    .mission-number__title {
+      position: absolute;
+      color: #fff;
+      transform: rotate(-90deg);
+      width: 100%;
+      text-align: center;
+      left: 25px;
+      font-weight: 300;
+      top: 41%;
+      font-size: 34px; }
   .mission-desc {
     display: inline-block;
     vertical-align: middle;
