@@ -1,6 +1,76 @@
 .team-block {
   background: #191e3f;
   .team {
-    height: 500px;
+    padding-bottom: 215px;
+    &-number {
+      display: inline-block;
+      position: relative;
+      width: 240px;
+      z-index: 999;
+      top: -170px;
+      &__num {
+        font-weight: 900;
+        font-size: 285px;
+        color: rgba(255, 255, 255, 0.03);
+        letter-spacing: -15px;
+        font-family: 'Yantramanav', sans-serif;
+      }
+      &__title {
+        position: absolute;
+        color: #fff;
+        transform: rotate(-90deg);
+        width: 100%;
+        text-align: center;
+        left: 20px;
+        font-weight: 300;
+        top: 41%;
+        font-size: 34px;
+      }
+    }
+
+    &-ceo {
+      display: inline-block;
+      position: relative;
+      margin-left: 55px;
+      &-desc {
+        display: inline-block;
+        vertical-align: middle;
+        width: 325px;
+        position: absolute;
+        z-index: 999;
+        font-weight: 100;
+        padding-bottom: 60px;
+        bottom: 0;
+        &__line {
+          width: 55px;
+          border-bottom: 5px solid #fff;
+        }
+
+        &__name {
+          margin-top: 30px;
+          font-size: 37px;
+          color: #d6d6da;
+        }
+
+        &__position {
+          margin-top: 20px;
+          color: #6d6e79;
+          font-size: 18px;
+        }
+
+        &__about {
+          margin-top: 45px;
+          color: #9fa0a8;
+          font-size: 14px;
+          line-height: 1.25;
+        }
+      }
+
+      &__photo {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 170px;
+      }
+    }
   }
 }
