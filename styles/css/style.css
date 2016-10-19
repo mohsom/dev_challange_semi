@@ -21,22 +21,22 @@
     text-align: center;
     margin: 330px auto 0 auto; }
 
-.mission {
+.mission-block .mission {
   padding-top: 230px;
   padding-bottom: 150px; }
-  .mission-number {
+  .mission-block .mission-number {
     display: inline-block;
     vertical-align: middle;
     position: relative;
     width: 240px;
     z-index: 999; }
-    .mission-number__num {
+    .mission-block .mission-number__num {
       font-weight: 900;
       font-size: 285px;
       color: #1f2443;
       letter-spacing: -15px;
       font-family: 'Yantramanav', sans-serif; }
-    .mission-number__title {
+    .mission-block .mission-number__title {
       position: absolute;
       color: #fff;
       transform: rotate(-90deg);
@@ -46,16 +46,16 @@
       font-weight: 300;
       top: 41%;
       font-size: 34px; }
-  .mission-desc {
+  .mission-block .mission-desc {
     display: inline-block;
     vertical-align: middle;
     width: 1000px;
     position: relative; }
-    .mission-desc__img {
+    .mission-block .mission-desc__img {
       -webkit-box-shadow: 0 79px 78px 15px rgba(0, 0, 0, 0.34);
       -moz-box-shadow: 0 79px 78px 15px rgba(0, 0, 0, 0.34);
       box-shadow: 0 79px 78px 15px rgba(0, 0, 0, 0.34); }
-    .mission-desc__text {
+    .mission-block .mission-desc__text {
       color: #fff;
       font-weight: 100;
       width: 450px;
@@ -74,7 +74,7 @@
     position: absolute;
     font-weight: 900;
     font-size: 1300px;
-    color: rgba(25, 30, 63, 0.3);
+    color: rgba(25, 30, 63, 0.4);
     left: -80px;
     top: -180px; }
   .projects-block .projects-list {
