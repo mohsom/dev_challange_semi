@@ -78,14 +78,20 @@
     left: -80px;
     top: -180px; }
   .projects-block .projects-list {
-    padding-top: 285px; }
-    .projects-block .projects-list_item {
+    padding-top: 220px;
+    margin-left: 165px;
+    width: 885px;
+    display: inline-block;
+    vertical-align: text-top; }
+    .projects-block .projects-list__item {
       display: inline-block;
-      vertical-align: middle; }
+      vertical-align: middle;
+      position: relative;
+      width: 255px; }
     .projects-block .projects-list .__margin {
       display: inline-block;
       vertical-align: middle;
-      width: 85px; }
+      width: 60px; }
     .projects-block .projects-list .__line {
       height: 110px; }
   .projects-block .projects-number {
@@ -93,11 +99,12 @@
     vertical-align: middle;
     position: relative;
     width: 240px;
-    z-index: 999; }
+    z-index: 999;
+    top: 150px; }
     .projects-block .projects-number__num {
       font-weight: 900;
       font-size: 285px;
-      color: #1f2443;
+      color: rgba(255, 255, 255, 0.03);
       letter-spacing: -15px;
       font-family: 'Yantramanav', sans-serif; }
     .projects-block .projects-number__title {
@@ -106,7 +113,7 @@
       transform: rotate(-90deg);
       width: 100%;
       text-align: center;
-      right: 25px;
+      left: 20px;
       font-weight: 300;
       top: 41%;
       font-size: 34px; }

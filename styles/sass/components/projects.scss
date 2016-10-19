@@ -14,16 +14,22 @@
     }
 
     &-list {
-      padding-top: 285px;
-      &_item {
+      padding-top: 220px;
+      margin-left: 165px;
+      width: 885px;
+      display: inline-block;
+      vertical-align: text-top;
+      &__item {
         display: inline-block;
         vertical-align: middle;
+        position: relative;
+        width: 255px;
       }
 
       .__margin {
         display: inline-block;
         vertical-align: middle;
-        width: 85px;
+        width: 60px;
       }
 
       .__line {
@@ -36,10 +42,11 @@
       position: relative;
       width: 240px;
       z-index: 999;
+      top: 150px;
       &__num {
         font-weight: 900;
         font-size: 285px;
-        color: #1f2443;
+        color: rgba(255, 255, 255, 0.03);
         letter-spacing: -15px;
         font-family: 'Yantramanav', sans-serif;
       }
@@ -49,7 +56,7 @@
         transform: rotate(-90deg);
         width: 100%;
         text-align: center;
-        right: 25px;
+        left: 20px;
         font-weight: 300;
         top: 41%;
         font-size: 34px;
