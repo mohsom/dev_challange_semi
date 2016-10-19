@@ -1,29 +1,31 @@
-.header {
-  background: url('../../../img/header.jpg') top center no-repeat;
-  background-size: cover;
-  padding-top: 85px;
-  padding-bottom: 420px;
-  &-navigation {
-    position: relative;
-    &__logo {
+.header-block {
+  .header {
+    background: url('../../../img/header.jpg') top center no-repeat;
+    background-size: cover;
+    padding-top: 85px;
+    padding-bottom: 420px;
+    &-navigation {
+      position: relative;
+      &__logo {
+        display: block;
+        width: 130px;
+        margin: 0 auto;
+      }
+
+      &-hamburger {
+        position: absolute;
+        top: 30px;
+        right: 35px;
+      }
+    }
+
+    &__title {
       display: block;
-      width: 130px;
-      margin: 0 auto;
+      color: #fff;
+      font-weight: 100;
+      font-size: 73px;
+      text-align: center;
+      margin: 330px auto 0 auto;
     }
-
-    &-hamburger {
-      position: absolute;
-      top: 30px;
-      right: 35px;
-    }
-  }
-
-  &__title {
-    display: block;
-    color: #fff;
-    font-weight: 100;
-    font-size: 73px;
-    text-align: center;
-    margin: 330px 0 0 0;
   }
 }

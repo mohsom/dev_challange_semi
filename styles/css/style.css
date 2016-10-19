@@ -1,25 +1,25 @@
-.header {
+.header-block .header {
   background: url("../../../img/header.jpg") top center no-repeat;
   background-size: cover;
   padding-top: 85px;
   padding-bottom: 420px; }
-  .header-navigation {
+  .header-block .header-navigation {
     position: relative; }
-    .header-navigation__logo {
+    .header-block .header-navigation__logo {
       display: block;
       width: 130px;
       margin: 0 auto; }
-    .header-navigation-hamburger {
+    .header-block .header-navigation-hamburger {
       position: absolute;
       top: 30px;
       right: 35px; }
-  .header__title {
+  .header-block .header__title {
     display: block;
     color: #fff;
     font-weight: 100;
     font-size: 73px;
     text-align: center;
-    margin: 330px 0 0 0; }
+    margin: 330px auto 0 auto; }
 
 .mission {
   padding-top: 230px;
