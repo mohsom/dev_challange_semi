@@ -52,9 +52,9 @@
     width: 1000px;
     position: relative; }
     .mission-desc__img {
-      -webkit-box-shadow: 0px 79px 78px 15px rgba(0, 0, 0, 0.34);
-      -moz-box-shadow: 0px 79px 78px 15px rgba(0, 0, 0, 0.34);
-      box-shadow: 0px 79px 78px 15px rgba(0, 0, 0, 0.34); }
+      -webkit-box-shadow: 0 79px 78px 15px rgba(0, 0, 0, 0.34);
+      -moz-box-shadow: 0 79px 78px 15px rgba(0, 0, 0, 0.34);
+      box-shadow: 0 79px 78px 15px rgba(0, 0, 0, 0.34); }
     .mission-desc__text {
       color: #fff;
       font-weight: 100;

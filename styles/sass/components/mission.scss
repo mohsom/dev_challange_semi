@@ -33,9 +33,9 @@
     width: 1000px;
     position: relative;
     &__img {
-      -webkit-box-shadow: 0px 79px 78px 15px rgba(0,0,0,0.34);
-      -moz-box-shadow: 0px 79px 78px 15px rgba(0,0,0,0.34);
-      box-shadow: 0px 79px 78px 15px rgba(0,0,0,0.34);
+      -webkit-box-shadow: 0 79px 78px 15px rgba(0,0,0,0.34);
+      -moz-box-shadow: 0 79px 78px 15px rgba(0,0,0,0.34);
+      box-shadow: 0 79px 78px 15px rgba(0,0,0,0.34);
     }
     &__text {
       color: #fff;
