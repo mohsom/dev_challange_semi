@@ -70,6 +70,47 @@
         display: inline-block;
         vertical-align: middle;
         margin-left: 170px;
+        -webkit-box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
+        -moz-box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
+        box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
+      }
+    }
+
+    &-people {
+      margin-top: 150px;
+      &-person {
+        &__photo {
+          display: inline-block;
+          vertical-align: text-bottom;
+          z-index: 2;
+          -webkit-box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
+          -moz-box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
+          box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
+        }
+
+        &-desc {
+          display: inline-block;
+          vertical-align: text-bottom;
+          z-index: 3;
+          margin-left: -100px;
+          font-weight: 100;
+          padding-bottom: 60px;
+          &__line {
+            width: 55px;
+            border-bottom: 5px solid #fff;
+          }
+
+          &__name {
+            margin-top: 30px;
+            font-size: 37px;
+            color: #d6d6da;
+          }
+          &__position {
+            margin-top: 20px;
+            color: #6d6e79;
+            font-size: 18px;
+          }
+        }
       }
     }
   }
