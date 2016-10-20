@@ -70,29 +70,40 @@
         display: inline-block;
         vertical-align: middle;
         margin-left: 170px;
-        -webkit-box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
-        -moz-box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
-        box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
+        -webkit-box-shadow: 0 35px 86px -29px rgba(0, 0, 0, 0.82);
+        -moz-box-shadow: 0 35px 86px -29px rgba(0, 0, 0, 0.82);
+        box-shadow: 0 35px 86px -29px rgba(0, 0, 0, 0.82);
       }
     }
 
     &-people {
       margin-top: 150px;
+
       &-person {
+
+        &_left-aligned .team-people-person-desc {
+          right: -100px;
+        }
+
+        &_right-aligned .team-people-person-desc {
+          left: -100px;
+        }
+
         &__photo {
           display: inline-block;
           vertical-align: text-bottom;
           z-index: 2;
-          -webkit-box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
-          -moz-box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
-          box-shadow: 0 35px 86px -29px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 0 35px 86px -29px rgba(0, 0, 0, 0.82);
+          -moz-box-shadow: 0 35px 86px -29px rgba(0, 0, 0, 0.82);
+          box-shadow: 0 35px 86px -29px rgba(0, 0, 0, 0.82);
+          position: relative;
         }
 
         &-desc {
           display: inline-block;
           vertical-align: text-bottom;
+          position: relative;
           z-index: 3;
-          margin-left: -100px;
           font-weight: 100;
           padding-bottom: 60px;
           &__line {
